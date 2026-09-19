@@ -51,4 +51,6 @@ docker build -t secure-ai-gateway .
 
 مسیر اعتماد در [THREAT_MODEL.md](THREAT_MODEL.md) و سناریوهای ارزیابی در [EVALUATION.md](EVALUATION.md) آمده است. این مثال عمداً provider محلی دارد تا بدون credentials اجرا شود. جایگزینی provider باید پشت همین policy boundary انجام شود؛ هرگز نباید مدل مستقیماً ابزار دلخواه را اجرا کند.
 
+نقشه‌ی کامل توسعه از MVP فعلی تا نسخه‌ی قابل ارائه به مشتری در [ROADMAP_FA.md](ROADMAP_FA.md) نوشته شده است.
+
 نسخه‌ی فعلی فقط server-side Node/Python-style deployment را نمایش می‌دهد و برای browser یا Edge runtime ادعای پشتیبانی ندارد. این پروژه یک نمونه‌ی آموزشی/portfolio است، نه محصول امنیتی آماده‌ی production.
